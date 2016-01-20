@@ -1,0 +1,6 @@
+.DS_Store
+coverage
+development-server
+public-server/versions
+public-server/package.json
+selenium-tests

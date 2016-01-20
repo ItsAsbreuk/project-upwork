@@ -1,0 +1,1 @@
+We try to minimize gardener changes for your recurring maintenance service, per the preference of most of our customers. In order to best serve your needs, we have a number of specialists who may need to visit your house for projects, photography and periodic quality inspections.

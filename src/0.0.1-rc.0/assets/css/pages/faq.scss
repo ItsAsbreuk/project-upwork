@@ -1,0 +1,13 @@
+@import "../variables";
+
+.ezh-faq-container {
+    .ezh-hero {
+        background-image: url("../../../" + $ezh-app-images-path + "bg-sunny-flowers.jpg");
+    }
+
+    .ezh-hero.ezh-hero-with-overlay {
+        .ezh-hero-overlay {
+            background-color: rgba(50, 50, 0, 0.4);
+        }
+    }
+}

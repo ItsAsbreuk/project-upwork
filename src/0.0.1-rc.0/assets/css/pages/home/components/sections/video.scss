@@ -1,0 +1,292 @@
+@import "../../../../variables";
+
+.Section.Section--video {
+    background-color: #395C1D;
+    background-image: url(http://dlluo0yktvfad.cloudfront.net/slides/video2-001.jpg);
+    background-size: cover;
+    background-position: 0 0;
+
+    .Section-title {
+        color: rgba(255, 255, 255, 0.9);
+        font-size: 62px;
+        letter-spacing: -.03em;
+    }
+    .Section-subtitle {
+        font-size: 24px;
+        margin-top: 40px;
+        color: rgba(255, 255, 255, 0.8);
+    }
+    .Section-content {
+        padding: 15vh 40px;
+        text-align: center;
+    }
+
+    .Section-video {
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        overflow: hidden;
+        position: absolute;
+
+        video {
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            display: block;
+        }
+
+        @media only screen and (max-device-width: 960px) {
+            video {
+                display: none;
+            }
+        }
+    }
+    .Section-hint {
+        color: #C6EF58;
+        text-align: center;
+        margin-top: 14vh;
+    }
+
+    .Section-desktopForm {
+        max-width: 437px;
+        margin: 20px auto 0;
+    }
+
+    .navbar {
+        background-color: rgba(255, 255, 255, 0.16);
+
+        .nav > li > a {
+            color: #FFF;
+
+            &:hover {
+                color: #d5fe5f;
+                background-color: rgba(0, 0, 0, 0.2);
+            }
+        }
+    }
+    .navbar-toggle {
+        color: white;
+        border-color: white;
+        .icon-bar {
+            background-color: #fff;
+        }
+    }
+
+    @media only screen and (max-width: $screen-xs-max) {
+        min-height: 100vh;
+        background-position: top center;
+
+        background-size: auto 100%;
+
+        .Section-title {
+            font-size: 8vw;
+            margin-top: 8%;
+        }
+
+        .Section-subtitle {
+            margin-top: 15vh;
+            font-size: 4vw;
+            line-height: 120%;
+        }
+    }
+    @media only screen and (max-width: $screen-xs-min) {
+
+        .Section-title {
+            font-size: 10vw;
+        }
+
+        .Section-subtitle {
+            font-size: 6vw;
+            margin-top: 15%;
+        }
+        .Section-content {
+            padding: 30px 20px 100px ;
+        }
+    }
+
+}
+
+.InvitePage {
+    color: #ffffff;
+
+    .ezh-navbar {
+        background-color: rgba(255, 255, 255, 0.15);
+    }
+    .InvitePage-title {
+        font-size: 10vw;
+        margin-bottom: 5vh;
+        margin-top: 2vh;
+        opacity: 0;
+        transition: all 0.2s ease-out;
+
+        &.is-visible {
+            opacity: 1;
+        }
+    }
+    .InvitePage-subTitle {
+        font-size: 5vw;
+        color: rgba(255,255,255,0.66);
+        line-height: 120%;
+        margin-top: 10px;
+        opacity: 0;
+        transition: all 0.2s ease-out;
+
+        &.is-visible {
+            opacity: 1;
+        }
+    }
+    .InvitePage-image {
+        width: 210px;
+        height: 209px;
+        display: block;
+        margin: 0 auto 5vh;
+        border-radius: 15px;
+        border: 5px solid rgba(255,255,255, 0.4);
+        div {
+            border-radius: 10px;
+            width: 100%;
+            height: 100%;
+            background-color: #FFF;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            border: 10px solid #FFF;
+        }
+    }
+
+    .InvitePage-address {
+        font-size: 18px;
+        color: #FCFCFC;
+        line-height: 21px;
+        max-width: 200px;
+        text-align: center;
+        margin: 7vh auto 0;
+        min-height: 38px;
+    }
+    .InvitePage-quotaText{
+        font-size: 24px;
+        color: #FCFCFC;
+        line-height: 29px;
+    }
+
+    .InvitePage-priceBox {/* Rectangle 42: */
+        background: rgba(255,255,255,0.22);
+        border-radius: 5px;
+        width: 280px;
+        height: 80px;
+        position: relative;
+        margin: 15px auto 10vh;
+
+        &:before {
+            content: "";
+            width: 1px;
+            height: 60px;
+            opacity: 0.4;
+            position: absolute;
+            left: 50%;
+            top: 10px;
+            border: 1px solid #FFFFFF;
+        }
+
+    }
+    .InvitePage-weeklyPrice, .InvitePage-biweeklyPrice {
+        display: inline-block;
+        padding: 10px;
+        text-align: center;
+        width: 140px;
+        float: left;
+    }
+
+    .InvitePage-price {
+        font-size: 32px;
+        color: #FCFCFC;
+        line-height: 39px;
+        text-align: center;
+    }
+    .InvitePage-priceTitle {
+        font-size: 12px;
+        color: #FCFCFC;
+        line-height: 15px;
+        text-align: center;
+    }
+    & > .container {
+        padding: 15px 15px 13vh;
+        margin: auto;
+    }
+
+    .Btn {
+        margin: 0 auto;
+        width: 280px;
+        font-size: 16px;
+        color: #FFFFFF;
+        line-height: 19px;
+    }
+
+    .InvitePage-grid {
+        opacity: 0;
+        transition: all 0.4s ease-out;
+        text-align: center;
+
+        &.is-visible {
+            opacity: 1;
+        }
+    }
+
+
+    @media only screen and (min-width: $screen-sm-min) {
+
+        .InvitePage-title {
+            font-size: 52px;
+            margin-bottom: 15px;
+        }
+
+        .InvitePage-subTitle {
+            font-size: 24px;
+            margin-top: 20px;
+        }
+        .InvitePage-grid {
+            margin-top: 80px;
+        }
+        .InvitePage-image {
+            width: 253px;
+            height: 279px;
+            margin-bottom: 20px;
+        }
+        .InvitePage-description {
+            max-width: 257px;
+        }
+
+        & > .container {
+            padding: 60px 15px 100px;
+        }
+        .InvitePage-priceBox {
+            margin: 35px auto 40px;
+            width: 300px;
+        }
+        .InvitePage-weeklyPrice, .InvitePage-biweeklyPrice {
+            width: 150px;
+        }
+        .InvitePage-address {
+            max-width: 210px;
+            margin: auto;
+            font-size: 16px;
+            color: rgba(252,252,252,0.74);
+            line-height: 19px;
+            text-align: center;
+        }
+
+        .Btn {
+            margin: 0;
+            width: 300px;
+        }
+    }
+
+    @media only screen and (min-height: 600px) and (max-width: $screen-xs-max) {
+
+        .InvitePage-address {
+            margin: 5vh auto 0;
+        }
+    }
+}

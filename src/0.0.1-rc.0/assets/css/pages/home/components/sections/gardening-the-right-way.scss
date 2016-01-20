@@ -1,0 +1,53 @@
+@import "../../../../variables";
+
+.DetailList {
+    .DetailList-item {
+        margin-top: 70px;
+        padding-left: 119px;
+        background-size: 64px 64px;
+        background-repeat: no-repeat;
+        background-position: 30px 0;
+        min-height: 64px;
+        padding-right: 30px;
+        &.is-dollar {
+            background-image: url("../../../../../../" + $ezh-app-images-path + "icon-dollar.svg");
+        }
+        &.is-blow {
+            background-image: url("../../../../../../" + $ezh-app-images-path + "icon-blow.svg");
+        }
+        &.is-organic {
+            background-image: url("../../../../../../" + $ezh-app-images-path + "icon-organic.svg");
+        }
+        &.is-insurance {
+            background-image: url("../../../../../../" + $ezh-app-images-path + "icon-insurance.svg");
+        }
+
+
+        @media only screen and (max-width: $screen-xs-max) {
+            background-size: 48px 48px;
+            background-position: 10px 0;
+            padding-left: 75px;
+            padding-right: 10px;
+        }
+    }
+
+    .DetailList-title {
+        margin: 0;
+        font-weight: 600;
+        font-size: 18px;
+        color: #FFFFFF;
+        line-height: 21px;
+    }
+    .DetailList-text {
+        font-size: 16px;
+        color: rgba(255,255,255,0.73);
+        line-height: 19px;
+        margin: 10px 0 0;
+    }
+
+    @media only screen and (max-width: $screen-xs-max) {
+        .DetailList-item {
+            margin-top: 40px;
+        }
+    }
+}

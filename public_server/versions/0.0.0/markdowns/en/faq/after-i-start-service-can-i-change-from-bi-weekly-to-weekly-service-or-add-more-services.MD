@@ -1,0 +1,1 @@
+Yes, you can change the frequency and scope of your service once a year, just let us know and we will modify our schedule to accommodate your request for the next pay period.

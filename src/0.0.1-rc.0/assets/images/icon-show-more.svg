@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="51px" height="15px" viewBox="0 0 51 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3 (11970) - http://www.bohemiancoding.com/sketch -->
+    <title>Line</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Landing-iPhone-6" sketch:type="MSArtboardGroup" transform="translate(-162.000000, -623.000000)" stroke="#FFFFFF" stroke-opacity="0.522220335" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M187.166795,635.780208 L186.902134,636.33359 L186.451067,636.117862 L163.451067,625.117862 L163,624.902134 L163.431455,624 L163.882523,624.215728 L186.882523,635.215728 L187.166795,635.351684 L187.451067,635.215728 L210.451067,624.215728 L210.902134,624 L211.33359,624.902134 L210.882523,625.117862 L187.882523,636.117862 L187.431455,636.33359 L187.166795,635.780208 Z" id="Line" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

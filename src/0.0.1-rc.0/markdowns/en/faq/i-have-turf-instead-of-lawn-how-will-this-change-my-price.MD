@@ -1,0 +1,1 @@
+We will blow your artificial turf and thus treat it as hardscape in our pricing. Typically, this has no impact on your overall price.

@@ -1,0 +1,1 @@
+Proper irrigation is the backbone to a healthy garden. Ideally, irrigation checks are conducted during the winter months when the irrigation system is turned off to identify any issues. We provide irrigation specialists who can check all the valves (up to 8 valves, doing minor repairs and adjustments to emitters, and flushing filters) for $60 per man-hour plus any needed parts.

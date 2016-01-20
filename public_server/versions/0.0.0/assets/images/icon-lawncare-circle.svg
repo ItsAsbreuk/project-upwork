@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="53px" height="53px" viewBox="0 0 53 53" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3 (11970) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-lawncare + Oval 15</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Landing-iPhone-5" sketch:type="MSArtboardGroup" transform="translate(-25.000000, -756.000000)">
+            <g id="icon-lawncare-+-Oval-15" sketch:type="MSLayerGroup" transform="translate(25.000000, 756.000000)">
+                <circle id="Oval-15" fill="#F6F9F6" sketch:type="MSShapeGroup" cx="26.5" cy="26.5" r="26.5"></circle>
+                <g id="icon-lawncare" transform="translate(10.000000, 13.000000)" sketch:type="MSShapeGroup">
+                    <g id="Page-1">
+                        <g id="Artboard-1-Copy-2">
+                            <g id="Group">
+                                <path d="M3.07369804,2.33503459 L6.64470653,11.5735628 C6.77355214,11.9068983 7.17236127,12.0812349 7.53547167,11.9629546 C7.89858206,11.8446742 8.08849117,11.4785672 7.9596455,11.1452318 L4.12265926,1.2185945 C4.01300908,0.934919369 3.70784192,0.766396736 3.39554912,0.795380572 C3.34264592,0.774413053 3.28662696,0.763157895 3.22864455,0.763157895 L0.88056625,0.763157895 C0.55636429,0.763157895 0.293546675,1.11503448 0.293546675,1.54909624 C0.293546675,1.98315801 0.55636429,2.33503459 0.88056625,2.33503459 L3.07369804,2.33503459 L3.07369804,2.33503459 Z" id="Line" fill="#8CBC45"></path>
+                                <path d="M1.45454142,18.986127 C1.63814249,18.0873347 1.99857199,17.0941014 1.99857199,17.0941014 C2.94805554,14.1000348 6.29282087,11.5719551 9.4550762,11.5039666 C9.4550762,11.5039666 21.9698253,10.7034557 27.9796691,13.2402359 C29.4214208,13.8488053 33.1716001,14.4869134 34.1554664,19.1686699 C34.4186117,20.4208543 34.4252557,21.2361654 34.4252557,21.2361654 C34.4834018,22.0734161 33.8396992,22.7521419 32.9905819,22.7521419 L2.99449798,22.7521419 C2.14400346,22.7521419 1.4159919,22.0673902 1.38276922,21.2204849 C1.38276922,21.2204849 1.26314889,19.9230614 1.45454142,18.986127 L1.45454142,18.986127 Z" id="Rectangle-11" stroke="#8CBC45" stroke-width="2"></path>
+                                <ellipse id="Oval-36-Copy-2" stroke="#8CBC45" stroke-width="2" fill="#FFFFFF" cx="10.7390351" cy="20.2674419" rx="4.97660819" ry="4.96940025"></ellipse>
+                                <ellipse id="Oval-36-Copy-4" fill="#8CBC45" cx="10.7660819" cy="20.2878905" rx="1.92708333" ry="1.92429221"></ellipse>
+                                <ellipse id="Oval-36-Copy-3" stroke="#8CBC45" stroke-width="2" fill="#FFFFFF" cx="27.8461257" cy="21.1992044" rx="3.42141813" ry="3.41646267"></ellipse>
+                                <path d="M12.4574712,9.53555619 C12.7906724,8.48122112 14.0694352,7.64537786 15.3222306,7.68560385 C15.3222306,7.68560385 20.9582085,7.69037845 23.2282296,8.70474057 C25.4982509,9.7191027 24.9108493,12.1749487 24.9108493,12.1749487 L11.875,11.3786463 L12.4574712,9.53555619 L12.4574712,9.53555619 Z" id="Path-Copy" stroke="#8CBC45" stroke-width="2"></path>
+                                <ellipse id="Oval-36-Copy-5" fill="#8CBC45" cx="27.8461257" cy="21.1926454" rx="1.15625" ry="1.15457533"></ellipse>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

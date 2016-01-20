@@ -1,0 +1,46 @@
+@import "../variables";
+
+@media only screen and (max-width: $screen-xs-max) {
+    #ezh-navbar-collapse {
+        overflow: hidden;
+        -webkit-transition: all 0.5s;
+           -moz-transition: all 0.5s;
+            -ms-transition: all 0.5s;
+             -o-transition: all 0.5s;
+                transition: all 0.5s;
+
+        &.navbar-collapse.collapse.in {
+            height: 150px;
+            opacity: 1;
+        }
+        &.navbar-collapse.collapse {
+            display: block;
+            height: 0;
+            opacity: 0;
+        }
+    }
+}
+
+.Nav {
+    background-color: #167940;
+    height: 60px;
+
+    .nav-brand {
+        float: left;
+        padding: 18px 25px;
+        font-size: 20px;
+        line-height: 22px;
+        height: 60px;
+    }
+    @media only screen and (max-width: $screen-xs-max) {
+        height: 40px;
+        .nav-brand {
+            padding: 10px 8px;
+            line-height: 20px;
+            height: 40px;
+            img {
+                height: 24px;
+            }
+        }
+    }
+}

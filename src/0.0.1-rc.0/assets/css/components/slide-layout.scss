@@ -1,0 +1,54 @@
+@import "../variables";
+
+.SlideLayout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    min-height: 100vh;
+
+    .SlideLayout-page {
+        transition: all 0.4s ease-out;
+        transform: translate3d(0, 0, 0) scale(1);
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        min-height: 100vh;
+        width: 100%;
+        opacity: 1;
+        z-index: 2;
+
+        &.is-left {
+            transform: translate3d(-100px, 0, 0);
+            position: absolute;
+            opacity: 0;
+            z-index: 1;
+        }
+        &.is-right {
+            transform: translate3d(100px, 0, 0);
+            opacity: 0;
+            position: absolute;
+            z-index: 1;
+        }
+
+
+        &.is-noAnimation {
+            transition-duration: 0s;
+        }
+
+
+        @media only screen and (max-width: $screen-xs-max) {
+
+            &.is-left {
+                transform: translate3d(-100%, 0, 0);
+                opacity: 1;
+            }
+            &.is-right {
+                transform: translate3d(100%, 0, 0);
+                opacity: 1;
+            }
+        }
+    }
+}

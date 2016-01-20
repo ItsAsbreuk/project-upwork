@@ -1,0 +1,68 @@
+.OrderedList {
+    counter-reset: order-couter;
+    .OrderedList-item {
+        padding-left: 82px;
+        position: relative;
+        margin-bottom: 40px;
+        font-size: 18px;
+        color: rgba(255,255,255,0.85);
+        line-height: 24px;
+        display: table;
+        min-height: 54px;
+        &:before {
+            content: counter(order-couter);
+            counter-increment: order-couter;
+            position: absolute;
+            width: 54px;
+            height: 54px;
+            background-color: #4C9F6B;
+            left: 0;
+            top: 50%;
+            margin-top: -27px;
+            font-size: 24px;
+            color: #FFFFFF;
+            line-height: 54px;
+            text-align: center;
+            border-radius: 50%;
+        }
+        & > * {
+            display: table-cell;
+            vertical-align: middle;
+        }
+
+        @media only screen and (max-width: 320px) {
+            padding-left: 62px;
+            min-height: 48px;
+            &:before {
+                width: 48px;
+                height: 48px;
+                margin-top: -24px;
+                line-height: 48px;
+            }
+        }
+    }
+
+    &.OrderedList--small {
+        .OrderedList-item {
+            min-height: 36px;
+            &:before {
+                width: 36px;
+                height: 36px;
+                font-size: 20px;
+                line-height: 36px;
+                margin-top: -18px;
+            }
+        }
+    }
+    &.OrderedList--gray {
+        .OrderedList-item {
+            font-size: 16px;
+            color: #5D5D5D;
+            line-height: 22px;
+            padding-left: 48px;
+            &:before {
+                background-color: #D0D0D0;
+            }
+        }
+    }
+}

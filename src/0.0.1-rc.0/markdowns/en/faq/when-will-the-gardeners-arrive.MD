@@ -1,0 +1,1 @@
+We provide an approximate time frame, but please keep in mind that gardeners may run into traffic and other unexpected delays.  As a reminder, you do not need to be home at the time of our visit.

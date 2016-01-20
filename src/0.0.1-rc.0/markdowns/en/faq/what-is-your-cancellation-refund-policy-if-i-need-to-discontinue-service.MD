@@ -1,0 +1,1 @@
+We are sorry to see you go! You can cancel at anytime as long as it is 7 days before the next pay period, so that we do not charge you for the next billing cycle. We will plan to finish up any visits you have already prepaid for.

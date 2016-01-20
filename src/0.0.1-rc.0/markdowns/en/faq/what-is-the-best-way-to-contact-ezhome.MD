@@ -1,0 +1,1 @@
+If you are considering ezhome and have questions regarding your initial blueprint or service proposal, email us at contact@ezhome.com to reach one of our Welcomologists. Once you are a customer, email us at help@ezhome.com to reach your Account Manager. We can also be reached via telephone at (650)300-1866.

@@ -1,0 +1,66 @@
+@import "../../../../variables";
+
+.UserFeedback {
+    max-width: 320px;
+
+    .UserFeedback-bubble {
+        position: relative;
+        padding: 20px 30px;
+        background: #FFFFFF;
+        border: 1px solid rgba(0,0,0,0.10);
+        box-shadow: 0 1px 0 0 rgba(0,0,0,0.08);
+        border-radius: 3px;
+        font-size: 18px;
+        color: #6F6F6F;
+        line-height: 24px;
+
+        &:before {
+            content: '';
+            position: absolute;
+            width: 20px;
+            border: 10px solid transparent;
+            border-top-color: rgba(0,0,0,0.08);
+            bottom: -22px;
+            right: 20px;
+        }
+        &:after {
+            content: '';
+            position: absolute;
+            width: 20px;
+            border: 8px solid transparent;
+            border-top-color: #FFF;
+            bottom: -16px;
+            right: 20px;
+        }
+    }
+    .UserFeedback-sign {
+        font-size: 16px;
+        color: #B5B5B5;
+        line-height: 19px;
+        font-weight: 600;
+        margin-top: 15px;
+    }
+
+
+    &.is-left {
+
+        .UserFeedback-sign {
+            text-align: right;
+        }
+    }
+    &.is-right {
+        margin-left: auto;
+
+        .UserFeedback-bubble {
+            &:before, &:after {
+                left: 20px;
+                right: auto;
+            }
+        }
+    }
+
+
+    @media only screen and (max-width: $screen-xs-max) {
+        margin: 0 auto 30px;
+    }
+}

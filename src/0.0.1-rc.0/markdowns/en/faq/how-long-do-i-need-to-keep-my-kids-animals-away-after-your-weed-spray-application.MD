@@ -1,0 +1,1 @@
+Our default herbicide (for customers with the conventional weed control program) contains Glyphosate (active ingredient), which is generally considered safe as soon as it is dry. Therefore, we advise clients to keep animals out of the treated area until the spray has dried. So on a sunny day, that is relatively quickly, but on an overcast day might be a bit longer.

@@ -1,0 +1,1 @@
+Yes. We reduce the risk to our customers (and their yard assets) by carrying a multi-million dollar liability and automobile insurance.

@@ -1,0 +1,10 @@
+@import "variables";
+@import "ezh-theme/app/styles/visitor/visitor-style";
+
+.ezh-navbar .navbar-right.btn {
+    margin-left: 15px;
+
+    @media only screen and (max-width: ($grid-float-breakpoint - 1)) {
+        margin-left: 0;
+    }
+}

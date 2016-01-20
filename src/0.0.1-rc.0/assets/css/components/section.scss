@@ -1,0 +1,237 @@
+@import "../variables";
+
+.Section {
+    position: relative;
+    background-color: #fff;
+
+    .Section-title {
+        font-size: 42px;
+        color: #6B6B6B;
+        line-height: 50px;
+        text-align: center;
+        font-weight: 400;
+    }
+    .Section-subtitle {
+        font-size: 22px;
+        color: #ADADAD;
+        line-height: 26px;
+        text-align: center;
+        font-weight: 400;
+    }
+    .Section-overlay {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background-color: rgba(30, 60, 30, 0.5);
+    }
+    .Section-content {
+        max-width: 960px;
+        position: relative;
+        padding: 60px 40px 100px;
+
+        @media only screen and (max-width: $screen-xs-max) {
+            padding: 30px;
+        }
+    }
+
+    .Section-link {
+        display: block;
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 14px;
+    }
+
+    .Section-smallContainer {
+        max-width: 740px;
+    }
+    .Section-imagePadding {
+        padding: 0 80px;
+
+        @media only screen and (max-width: $screen-sm-max) {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    }
+    .Section-wideImage {
+        width: 100%;
+
+        @media only screen and (max-width: $screen-xs-max) {
+            max-width: 350px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+    }
+    .Section-topSpacing {
+        margin-top: 70px;
+    }
+
+    p {
+        font-size: 18px;
+        color: #818181;
+        line-height: 32px;
+        margin: 0;
+    }
+    .Section-plainText {
+        margin-top: 45px;
+        font-size: 18px;
+        color: #7B7B7B;
+        line-height: 24px;
+        max-width: 707px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .Section-mainBtn {
+        height: 66px;
+        display: inline-block;
+        padding: 20px;
+        font-size: 20px;
+        background-color: #8CCD2C;
+        border: none;
+
+        &:focus {
+            outline: 0;
+        }
+
+        &.is-orange {
+            background-image: linear-gradient(-180deg, #F2C02C 0%, #DF9E33 100%);
+            &:hover {
+                background-image: linear-gradient(-180deg, #e1b229 0%, #cd9032 100%);
+            }
+        }
+
+        .Section-mainBtnText {
+            position: relative;
+            display: inline-block;
+            padding-right: 20px;
+
+            .Section-mainBtnArrow {
+                font-size: 30px;
+                display: block;
+                position: absolute;
+                line-height: 22px;
+                right: 0;
+                top: 0;
+            }
+        }
+    }
+    .Section-orangeBtn {
+        height: 66px;
+        margin: auto;
+        display: block;
+        font-size: 18px;
+        border: none;
+        transition: all 0.2s ease-out;
+
+        /* Rectangle 43: */
+        background-image: linear-gradient(-180deg, #F2C02C 0%, #DF9E33 100%);
+        box-shadow: 0 1px 2px 0 rgba(0,0,0,0.20);
+        border-radius: 5px;
+
+        .Section-mainBtnArrow {
+
+        }
+
+        &:hover {
+            color: #fff;
+            background-image: linear-gradient(-180deg, #e1b229 0%, #cd9032 100%);
+        }
+    }
+    .Section-actionBox {
+        height: 100px;
+        margin-top: 50px;
+    }
+
+    a.Section-mobileShowMore {
+        display: none;
+        outline: 0;
+    }
+
+    @media only screen and (max-width: $screen-xs-max) {
+        .Section-title {
+            font-size: 32px;
+            line-height: 125%;
+            margin-top: 0;
+        }
+
+        .Section-subtitle {
+            font-size: 20px;
+            line-height: 125%;
+        }
+
+        .Section-topSpacing {
+            margin-top: 50px;
+        }
+        .Section-plainText {
+            margin-top: 20px;
+        }
+        a.Section-mobileShowMore {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            width: 100%;
+            cursor: default;
+            display: block;
+            div {
+                height: 60px;
+                background-image: url("../../../" + $ezh-app-images-path + "icon-show-more.svg");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: 48px 13px;
+            }
+        }
+    }
+
+    @media only screen and (max-width: 320px) {
+        .Section-title{
+            font-size: 30px;
+        }
+        .Section-subtitle {
+            font-size: 18px;
+        }
+        .Section-topSpacing {
+            margin-top: 30px;
+        }
+    }
+}
+
+.Section.Section--gray {
+    background-color: #F6F6F6;
+}
+.Section.Section--green {
+    background-image: linear-gradient(44deg, #198D32 0%, #198D32 0%, #0A793C 100%);
+    .Section-title {
+        color: #FFF;
+    }
+}
+.Section.Section--greenFlat {
+    background-image: url("../../../" + $ezh-app-images-path + "bg-medium-leaves.svg"), linear-gradient(45deg, #3D8A54 0%, #438A3D 100%);
+    background-position: 100px, 0, 0 0;
+    .Section-title {
+        color: #FFF;
+    }
+}
+.Section.Section--greenLeaves {
+    background-image: url("../../../" + $ezh-app-images-path + "bg-large-leaves.svg"), linear-gradient(44deg, #198D32 0%, #198D32 0%, #0A793C 100%);
+    background-position: -100px 0, 0 0;
+}
+.Section.Section--bottomLeaves {
+    background-image: url("../../../" + $ezh-app-images-path + "icon-leaves-bg2.svg");
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-size: 538px 78px;
+    padding-bottom: 30px;
+}
+.Section.Section--lightGreen {
+    background-image: linear-gradient(-135deg, #429111 0%, #66B136 100%);
+    .Section-title {
+        color: #FFF;
+    }
+    .Section-subtitle {
+        color: rgba(255, 255, 255, 0.55);
+    }
+
+}

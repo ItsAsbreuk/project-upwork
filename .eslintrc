@@ -1,0 +1,6 @@
+{
+  "extends": "ezhome/base",
+  "rules": {
+    "react/display-name": 0
+  }
+}

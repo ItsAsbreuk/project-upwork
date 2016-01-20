@@ -1,0 +1,1 @@
+No, we do not require you to be present at the time of our visit. If you have any access restrictions (door code for back yard, knock to make sure dogs are inside, enter through side gate, etc.) please let us know in advance so that we can provide full service while onsite.

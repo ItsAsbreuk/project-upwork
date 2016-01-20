@@ -1,0 +1,1 @@
+In most cases, our fees are comparable to what people currently pay for a weekly year-round gardener. We are able to do this and pay gardeners a living wage because our scale and technology allow us to be much smarter in the way that we allocate resources.

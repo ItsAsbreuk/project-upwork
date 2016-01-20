@@ -1,0 +1,1 @@
+Currently it typically takes 2-3 weeks before we can slot you into our service schedule. We are actively working to shorten wait time between sign-up and your gardener’s first visit.

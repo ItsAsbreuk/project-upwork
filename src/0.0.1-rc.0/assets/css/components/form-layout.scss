@@ -1,0 +1,74 @@
+@import "../variables";
+@import "mixins";
+
+.FormLayout {
+    min-height: 100vh;
+    width: 100%;
+
+    &.is-lightGray {
+        background-color: #FCFCFC;
+    }
+    &.is-gray {
+        background-color: #F0F0F0;
+    }
+    &.is-white {
+        background-color: #FFF;
+    }
+    &.is-green {
+        background-color: rgba(139, 190, 60, 0.14);
+    }
+    &.is-withLeaves {
+        background-image: url("../../../" + $ezh-app-images-path + "icon-leaves-bg2.svg");
+        background-position: bottom;
+        background-repeat: repeat-x;
+        background-size: 538px 78px;
+        padding-bottom: 78px;
+    }
+
+    .navbar {
+        background-color: rgba(255, 255, 255, 0.6);
+
+        .navbar-toggle {
+            border-color: #B4B4B4;
+
+            .icon-bar {
+                background-color: #9B9B9B;
+            }
+        }
+
+    }
+    .FormLayout-container {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .FormLayout-title {
+        font-size: 42px;
+        color: #0C793D;
+        line-height: 50px;
+        text-align: center;
+        margin-bottom: 30px;
+
+    }
+    .FormLayout-subPage {
+        @include slide-page();
+    }
+
+
+    @media only screen and (max-width: $screen-xs-max) {
+        .FormLayout-title {
+            margin: 0 0 30px;
+            font-size: 32px;
+            line-height: 38px;
+        }
+        .FormLayout-container {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        &.is-withLeaves {
+            background-image: none;
+            padding-bottom: 0;
+        }
+    }
+}

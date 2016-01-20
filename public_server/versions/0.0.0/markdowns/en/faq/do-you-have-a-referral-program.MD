@@ -1,0 +1,1 @@
+We consider referrals to be one of the greatest compliments a customer can give; it means that our customers trust us enough to recommend our services to their friends and family. To show our gratitude, we offer a $50 credit for both the existing customer and the newly referred customer, applied after the new customer completes their first month of service.

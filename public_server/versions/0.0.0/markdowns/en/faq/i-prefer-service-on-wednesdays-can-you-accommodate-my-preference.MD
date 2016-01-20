@@ -1,0 +1,1 @@
+When you sign-up online, you will be asked for any preferences and we will do our best to accommodate them.

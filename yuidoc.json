@@ -1,0 +1,13 @@
+{
+    "name": "ezHome",
+    "description": "ezHome.io website",
+    "version": "2.0.0",
+    "options": {
+        "linkNatives": "true",
+        "attributesEmit": "false",
+        "selleck": "false",
+        "extension": ".js,.jsx",
+        "outdir": "./api",
+        "tabtospace":4
+    }
+}

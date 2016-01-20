@@ -1,0 +1,48 @@
+@import "../../../../variables";
+
+.BenefitsList {
+    .BenefitsList-icon {
+        width: 48px;
+        height: 48px;
+        display: inline-block;
+        margin-right: 5px;
+        background-size: 48px 48px;
+        background-repeat: no-repeat;
+        background-position: 0 0;
+        vertical-align: top;
+
+        &.is-weeklyReports {
+            background-image: url("../../../../../../" + $ezh-app-images-path + "icon-weekly-reports.svg");
+        }
+        &.is-onlineAccess {
+            background-image: url("../../../../../../" + $ezh-app-images-path + "icon-online-access.svg");
+        }
+        &.is-ledByExperts {
+            background-image: url("../../../../../../" + $ezh-app-images-path + "icon-led-by-experts.svg");
+        }
+
+        @media only screen and (max-width: $screen-sm-max) {
+            margin-right: 2px;
+        }
+    }
+    .BenefitsList-title {
+        font-size: 18px;
+        color: #636363;
+        line-height: 48px;
+        font-weight: 600;
+        display: inline-block;
+        margin: 0;
+    }
+    .BenefitsList-text {
+        margin: 10px 0 0;
+        font-size: 14px;
+        color: #696969;
+        line-height: 24px;
+    }
+
+    @media only screen and (max-width: $screen-xs-max) {
+        & > * {
+            margin-bottom: 20px;
+        }
+    }
+}

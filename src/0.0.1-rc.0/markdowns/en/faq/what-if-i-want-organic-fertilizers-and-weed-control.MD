@@ -1,0 +1,1 @@
+The future of our planet is of the utmost importance to us at ezhome and we strive to provide our Smart Gardening service in the most sustainable way possible. You can choose our Organic Plan, which involves using organic fertilizers and hand weeding instead of spray.

@@ -1,0 +1,1 @@
+ezhome loves dogs, but mowing and blowing can be distressing for even the friendliest of dogs. Therefore, out of concern for the well being of your dog and our gardeners, we will not conduct service while your dog is in the yard.

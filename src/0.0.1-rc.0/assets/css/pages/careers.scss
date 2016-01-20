@@ -1,0 +1,80 @@
+@import "ezh-theme/app/styles/shared/_variables.scss";
+@import "../variables";
+
+.ezh-careers-container {
+    .ezh-hero {
+        background-image: url("../../../" + $ezh-app-images-path + "bg-red-flowers.jpg");
+    }
+
+    .ezh-hero.ezh-hero-with-overlay {
+        .ezh-hero-overlay {
+            background-color: rgba(0, 86, 23, 0.2);
+        }
+
+        .ezh-hero-content h1 {
+            letter-spacing: -.02em;
+        }
+    }
+
+    #whr_embed_hook {
+        margin-top: 20px;
+        color: $ezhome-gray;
+    }
+
+    .whr-items {
+        text-align: left;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 3em;
+    }
+
+    h2.whr-group {
+        margin-bottom: 10px;
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    .whr-item {
+        font-family: $headings-font-family;
+        padding: 20px 20px 18px 20px;
+        margin: 0;
+        margin-bottom: 5px;
+        border: 1px solid #e8e8e8;
+        border-radius: 3px;
+        background: #fdfdfd;
+
+        .whr-date {
+            display: none;
+        }
+
+        h3 {
+            text-transform: none;
+            font-size: 18px;
+            margin-bottom: 5px;
+            margin-top: 0;
+            font-weight: 400;
+        }
+
+        p, ul, li {
+            color: #444;
+            font-size: 16px;
+        }
+
+        ul, li {
+            margin: 0;
+            padding: 0;
+        }
+
+        .whr-info {
+            margin-bottom: 0;
+            list-style: none;
+
+            .whr-location, .whr-date {
+                > span.heading {
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}

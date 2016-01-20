@@ -1,0 +1,1 @@
+The amount of time our team spends at your home depends on a number of factors: the size of your garden, the density of your plants, the type of plants you have, the season and which service tier you chose. It varies per home and per visit, but for a typical home, a gardener would spend somewhere between 30 and 75 minutes every visit.
