@@ -31,25 +31,9 @@ const routes = [
 
     {
         method: "GET",
-        path: "/accountmanagers",
-        handler: function(request, reply) {
-            reply.reactview("accountmanagers");
-        }
-    },
-
-    {
-        method: "GET",
         path: "/careers",
         handler: function(request, reply) {
             reply.reactview("careers");
-        }
-    },
-
-    {
-        method: "GET",
-        path: "/drought",
-        handler: function(request, reply) {
-            reply.reactview("drought");
         }
     },
 
@@ -59,47 +43,7 @@ const routes = [
         handler: function(request, reply) {
             reply.reactview("faq");
         }
-    },
-    {
-        method: "GET",
-        path: "/gardeners",
-        handler: function(request, reply) {
-            reply.reactview("gardeners");
-        }
-    },
-
-    {
-        method: "GET",
-        path: "/maintenance",
-        handler: function(request, reply) {
-            reply.reactview("maintenance");
-        }
-    },
-
-    {
-        method: "GET",
-        path: "/mountainview",
-        handler: function(request, reply) {
-            reply.reactview("mountainview");
-        }
-    },
-
-    {
-        method: "GET",
-        path: "/signup",
-        handler: function(request, reply) {
-            reply.reactview("signup");
-        }
-    },
-
-    {
-        method: "GET",
-        path: "/willowglen",
-        handler: function(request, reply) {
-            reply.reactview("willowglen");
-        }
     }
-
 ];
 
 // extend the route-path with `assets/vendor` (deep):
